@@ -1,0 +1,49 @@
+9/20/2022
+Today I spent some time working on my Python skills. 
+I set out to learn what an exception is and how to use it. 
+I did this because when creating a database it is important to keep track of types. 
+You want to be able to ensure that the new data entering your dataset is the correct type. 
+This is where working with exceptions come in. 
+The way that I implemented this was by creating a function that validates the type which I am looking to be added to a column in the dataset. 
+If the type does not match it catches the error and asks the user for a new input.
+
+Links: Python - Exceptions Handling (tutorialspoint.com)
+
+
+9/22/2022
+Beginning research process for Liberty League database by looking into the retrosheet database. 
+Retrosheet is an organization that compiles all the play-by-play data in the MLB into one database. 
+The formatting used here can help me learn what I need in order to compile data for the Liberty League. 
+
+10/11/2022
+Met up with Coach Kane to confirm on same page and establish connections with the sports information director Tommy Skarza.
+Plan to meet with him in the next week. 
+
+Goals to discuss: I am looking to develop shift statistics. Is there accessible and tabulated data that I can use for that?
+
+Need to learn more Jupyter Lab
+
+10/15/2022
+Today I am learning to become more fluent in Jupyter Lab by becoming more familiar with the interface.
+This means learning the shortcuts and different ways I can become quicker at acomplishing what I need to.
+Eventually, I would like to be able to perform analysis much quicker than I currently am, however this is a good starting place.
+
+10/24/2022
+Becoming familiar with Pandas methods and functions:
+	.loc: used to locate information in the dataframe
+	.iloc: the same as loc but you use the index
+ These are essential for grabbing values from any dataset, it is key to become well-equipped with these.
+ They can also be used to make what is called a "mask" or an array of booleans which are really useful for filtering datasets.
+ These are the types of actions and data manipulations that I need to learn because for the sake of data cleaning and things of that nature.
+ 
+ 11/7/2022
+ I am finding that the resources to receive data on the baseball team are increasingly limiting.
+ I will need to find a solution to the lack of readable data. 
+ In the meantime however, I need to achieve the original goal of learning to analyze baseball data.
+ As a result, I am going to begin looking into baseball data related projects I can do so I can become familiar with the process.
+ 
+ 11/10/2022
+ It is very important that I begin assessing different areas of inquiry that I would be able to apply to multiple applications such as the mlb or clarkson's team
+ 	Possible figures of exploration:
+		○ Is there a correlation between how player performance and amount of time spentplaying in a league?
+    ○ Is there a correlation between age, on field performance, and weight/size?
