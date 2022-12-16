@@ -1,0 +1,44 @@
+Age of prime year vs. Weight:
+
+  11/9/2022
+  While data collection is seemingly scarce for the Clarkson Baseball Team, while I find solutions I am going to continue practicing my statistical analysis skills with this project.
+
+  I am going to be using Baseball Savant and Lahman database data to answer the question:
+
+  Attempting to answer the question: Is there a correlation between size and what age a player plays their best?
+  Hypothesis: Players that weigh more have a later prime season opposed to players that weigh less.
+  
+  11/11/2022
+  Looked into best options for collecting the data I need. Baseball savant has data that is easily tabulated into a csv file.
+  I can choose whatever fields I want but there is no option for weight so I will need to get that data elsewhere. 
+
+  First idea that came to mind was to get data from the Lahman database and merge weight data. 
+  Then I just needed to know how I was going to merge them. 
+  I went into R and put together a table using the Lahman Database package that included First and Last name, weight, and the last game they played. 
+  The idea is that the first and last names can be used as a key to merge the tables and the final data can be used to filter the data to a manageable size.
+  
+  11/20/2022
+  With the data now collected I need to perform a hypothesis test using the table.
+  STAT389 has helped me gain the skills to do a lot of this analysis. I wonder how my abilities will develop as I take more classes.
+  
+  12/1/2022
+  Wow. There was so much trouble shooting to try and figure out why the tables were not merging. 
+  It turns out the baseball savant database just had a random space in front of the players first names. 
+  Took way too much time. I guess that's just how being a data scientist is sometimes.
+ 
+Pitch Usage vs. Strikeout Data:
+
+  12/10/2022
+  If I were going to be doing analysis using Clarkson baseball data, I would want to discover trends among the team and in the league. 
+  This means discovering effective strategies and non-effective strategies.
+  Using baseball savant data, I am doing a deep dive into the effectiveness of introducing more pitches into a pitchers arsenal.
+  This will be done by forming a dataset of pitchers and the pitch usage data and taking a sample of pitchers that use at least 4 pitches.
+  
+  12/11/2022
+  Null hypothesis: μ = mean(strikeout%) = 22.56
+  Alternative hypothesis: μ ≠ 22.56
+
+  Conclusion: The null hypothesis is rejected. Pitchers who throw more than 4 pitches at least 15% of the time strikeout less batters than average.
+
+  This test helped me improve my pandas skills which I am now getting fairly confident with.
+  
